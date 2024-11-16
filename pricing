@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sizzle Learning Pricing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .pricing-container {
+            width: 80%;
+            margin: 40px auto;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .pricing-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 250px;
+            text-align: center;
+        }
+        .pricing-card h2 {
+            color: #ff6f61;
+            margin-bottom: 15px;
+        }
+        .pricing-card p {
+            font-size: 16px;
+            margin-bottom: 15px;
+        }
+        .pricing-card .price {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin: 10px 0;
+        }
+        .pricing-card .cta {
+            display: block;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .pricing-card .cta:hover {
+            background-color: #ff5a4a;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        table th, table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        table th {
+            background-color: #ff6f61;
+            color: white;
+        }
+        table td {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sizzle Learning Pricing</h1>
+    <p>Your path to personalized, engaging learning solutions</p>
+</header>
+
+<div class="pricing-container">
+    <div class="pricing-card">
+        <h2>Family Plan</h2>
+        <p>For up to 4 students</p>
+        <div class="price">$14.99/month</div>
+        <a href="contact.html" class="cta">Get Started</a>
+    </div>
+    <div class="pricing-card">
+        <h2>Class Plan</h2>
+        <p>Individual classes</p>
+        <div class="price">$24.99/class</div>
+        <a href="contact.html" class="cta">Book a Class</a>
+    </div>
+    <div class="pricing-card">
+        <h2>School Plan</h2>
+        <p>School-wide access</p>
+        <div class="price">$5/student/month</div>
+        <a href="contact.html" class="cta">Contact Us</a>
+    </div>
+    <div class="pricing-card">
+        <h2>District Plan</h2>
+        <p>Custom solutions for districts</p>
+        <div class="price">Contact for pricing</div>
+        <a href="contact.html" class="cta">Request a Quote</a>
+    </div>
+</div>
+
+<h2 style="text-align: center;">Pricing Comparison</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Plan</th>
+            <th>Details</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Family Plan</td>
+            <td>Up to 4 students</td>
+            <td>$14.99/month</td>
+        </tr>
+        <tr>
+            <td>Class Plan</td>
+            <td>Individual classes</td>
+            <td>$24.99/class</td>
+        </tr>
+        <tr>
+            <td>School Plan</td>
+            <td>School-wide access</td>
+            <td>$5/student/month</td>
+        </tr>
+        <tr>
+            <td>District Plan</td>
+            <td>Custom solutions</td>
+            <td>Contact us for pricing</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
